@@ -33,7 +33,7 @@ public class HelloServlet extends HttpServlet {
             e.printStackTrace();
         }
 
-        response.sendRedirect("index.html");
+        response.sendRedirect("index.jsp");
     }
 
     @Override
